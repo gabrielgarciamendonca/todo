@@ -33,7 +33,17 @@ export function Home() {
       updatedTasks.splice(index, 1, selectedTask);
       setTasks([...updatedTasks]);
     }
-    
+  }
+
+  function handleEditTask(taskId: number, taskNewTitle: string) {
+    const updatedTasks = tasks.map(task => ({ ...task }))
+    const selectedTask = updatedTasks.find(item => item.id === taskId);
+    if (selectedTask) {
+      selectedTask.title = taskNewTitle;
+      const index = updatedTasks.findIndex(item => item.id === taskId);
+      updatedTasks.splice(index, 1, selectedTask);
+      setTasks([...updatedTasks]);
+    }
   }
 
   function handleRemoveTask(id: number) {
@@ -56,7 +66,8 @@ export function Home() {
       <TasksList 
         tasks={tasks} 
         toggleTaskDone={handleToggleTaskDone}
-        removeTask={handleRemoveTask} 
+        removeTask={handleRemoveTask}
+        editTask={handleEditTask}
       />
     </View>
   )
