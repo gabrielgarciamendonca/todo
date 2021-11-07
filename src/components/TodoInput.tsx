@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, TextInput, TouchableOpacity, View } from 'react-native';
+import { Alert, StyleSheet, TextInput, TouchableOpacity, View } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 
 interface TodoInputProps {
@@ -13,6 +13,8 @@ export function TodoInput({ addTask }: TodoInputProps) {
     if (task !== '') {
       addTask(task);
       setTask('');
+    } else {
+      Alert.alert('Atenção', 'Você não pode cadastrar uma task vazia');
     }
     //TODO - Call addTask if task not empty and clean input value 
   }

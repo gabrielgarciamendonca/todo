@@ -105,7 +105,7 @@ export function TaskItem({index, toggleTaskDone, removeTask, editTask, item}: Ta
     taskButton: {
         flex: 1,
         paddingHorizontal: 24,
-        paddingVertical: 15,
+        paddingVertical: Platform.OS === 'ios' ? 15 : 5,
         marginBottom: 4,
         borderRadius: 4,
         flexDirection: 'row',
