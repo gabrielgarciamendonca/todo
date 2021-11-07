@@ -4,7 +4,9 @@ Com calma e persisitência, o primeiro desafio da rocket foi concluido. Eis aqui
 
 <div align="center">
 
-https://user-images.githubusercontent.com/57206636/140660362-bad45bc4-6427-43f4-92b2-098b90015e29.mp4
+
+https://user-images.githubusercontent.com/57206636/140662946-964f2c2c-6dac-419b-9bd1-5dc1fa5a2b79.mp4
+
 
 </div>
 
