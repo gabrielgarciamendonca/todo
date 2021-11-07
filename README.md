@@ -31,6 +31,7 @@ https://user-images.githubusercontent.com/57206636/140662946-964f2c2c-6dac-419b-
 |   |   |   ├──pages
 │   ├── assets
 |   |   ├── ícons
+|   |   |   ├──pen
 |   |   |   ├──trash
 |   |   ├── images
 |   |   |   ├──logo
