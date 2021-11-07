@@ -3,7 +3,9 @@
 Com calma e persisitência, o primeiro desafio da rocket foi concluido. Eis aqui um simples todo app, com todas as principais funcionalidades que um todo app deve ter. Além disso, é possivel observar o respeito do principio da imutabilidade de estado no código, um conceito base, porém muito importante para desenvolvedores react e react native. Para complementar, o código é tipado com typescript, facilitando a vida de quem for ler, entender ou editar o código... Finalizando, temos o código feito com amor e editado com carinho.
 
 <div align="center">
-   <img src="https://github.com/gabrielgarciamendonca/PlantManager/blob/main/PlantManageExample.gif" width="250" />
+
+https://user-images.githubusercontent.com/57206636/140660362-bad45bc4-6427-43f4-92b2-098b90015e29.mp4
+
 </div>
 
 ## Desenvolvido por: 
